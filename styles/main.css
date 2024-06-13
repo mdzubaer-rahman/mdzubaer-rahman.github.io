@@ -1,0 +1,38 @@
+html {
+  background-color: rgb(45, 24, 65);
+  color: red;
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+h2 {
+  padding-left: 15px;
+}
+#menu {
+  background-color: aqua;
+  height: 200px;
+  width: 200px;
+  padding-top: 10px;
+  position: static;
+}
+
+#about {
+  background-color: white;
+  height: 200px;
+  width: 600px;
+  position: relative;
+  left: 500px;
+  bottom: 220px;
+}
+div > p.welcome {
+  font-weight: bold;
+  font-size: 30px;
+}
+div .about-text {
+  color: black;
+}
+div .about-des {
+  color: black;
+}
