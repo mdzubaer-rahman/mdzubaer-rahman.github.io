@@ -1,6 +1,6 @@
-html {
-  background-color: rgb(45, 24, 65);
-  color: red;
+body {
+  background-color: rgb(84, 196, 19);
+
   font-family: sans-serif;
 }
 h1 {
@@ -11,7 +11,9 @@ h2 {
   padding-left: 15px;
 }
 #menu {
-  background-color: aqua;
+  /*background-color: black;*/
+
+  display: block;
   height: 200px;
   width: 200px;
   padding-top: 10px;
@@ -19,12 +21,19 @@ h2 {
 }
 
 #about {
-  background-color: white;
-  height: 200px;
-  width: 600px;
+  /*background-color: white;*/
+  display: inline-block;
+  height: 260px;
+  width: 500px;
   position: relative;
   left: 500px;
-  bottom: 220px;
+  bottom: 380px;
+}
+#menu2 {
+  /*background-color: black;*/
+  display: block;
+  height: 150px;
+  width: 200px;
 }
 div > p.welcome {
   font-weight: bold;
@@ -35,4 +44,22 @@ div .about-text {
 }
 div .about-des {
   color: black;
+}
+/* For widescreen display*/
+@media only screen and (min-width: 920px) {
+  body {
+    color: blanchedalmond;
+  }
+}
+/* tablets */
+@media only screen and (max-width: 919px) {
+  body {
+    color: aqua;
+  }
+}
+/* phones */
+@media only screen and (max-width: 400px) {
+  body {
+    color: bisque;
+  }
 }
